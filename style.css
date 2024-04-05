@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+:root{
+    --brown:rgb(56,3,3)
+}
+.nav-item i{
+    color: rgba(153,152,152,0.635);
+}
+.nav-item{
+    font-size: 20px;
+}
+#contactbtn{
+    background-color:var(--brown) ;
+    color: white;
+}
+#contactbtn:hover{
+    background-color: white;
+    color: var(--brown);
+    border:var(--brown;)
+}
+.main{
+    background-image: url(https://media.istockphoto.com/id/943910360/photo/posters-in-cozy-apartment-interior.jpg?s=612x612&w=0&k=20&c=QzNjsxCNMcFNxpn4E2ocPvSU8Ud2S3B_mHyo5L-HOLo=);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body{
+    overflow: x;
+}
+.welcome{
+    padding-top: 22%;
+    padding-left: 3%;
+    color: white;
+}
+.welcome h1{
+    font-size: 105px;
+}
+#gallery button{
+    width: 25%;
+}
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+    .main{
+        background-position: bottom;
+    }
+    .nav-item i{
+        display: none;
+    }
+    #gallery button{
+        width: 75%;
+    }
+}
+.work{
+    background: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?cs=srgb&dl=pexels-madison-inouye-1831234.jpg&fm=jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: -7%;
+    margin-top: -0.5%;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+.work h1{
+    padding-top:1%;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.viewbtn{
+    border-color: var(--brown);
+    color: var(--brown);
+}
+.viewbtn:hover{
+    background-color: var(--brown);
+    color: white;
+}
+.imgdiv{
+    width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.hr{
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+#fur{
+    color: var(--brown);
+}
+#gallery{
+    padding-top: 5%;
+}
+#gallery h1{
+padding-bottom: 5%;
+font-weight: 600;
+}
+
+.img1{
+    position: relative;
+    
+}
+
+
+.rosewood{
+    width: 50%;
+    padding: 4%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+.rosewood1{
+    width: 50%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
